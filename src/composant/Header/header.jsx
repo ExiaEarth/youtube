@@ -1,10 +1,19 @@
 
-
+// import { useState } from "react"
+import style from "./header.module.scss"
+// import {Drawer} from "@mui/material"
 
 const Header = ()=>{
+    // const [menuVisible,setMenuVisible]=useState(false);
     return(
-        <div>
-            <h2>header</h2>
+        <div className={style.container}>
+            <nav>
+                <ul>
+                    <li>a</li>
+                    <li>a</li>
+                    <li>a</li>
+                </ul>
+            </nav>
         </div>
     )
 }

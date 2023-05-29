@@ -1,14 +1,18 @@
-import Footer from "../../composant/Footer/footer"
+// import Footer from "../../composant/Footer/footer"
 import Header from "../../composant/Header/header"
+import Search from "../../composant/Search/search"
+import FormaAccueille from "../../composant/formaAccueille/formacueille"
+import style from "./accueille.module.scss"
 
 const Accueille =()=>{
     return(
-        <div>
+        <div className={style.container}> 
             <Header/>
             <main>
-                <h1>AZERTYUIOP</h1>
+                <Search/>
+                <FormaAccueille/>
             </main>
-            <Footer/>
+            {/* <Footer/> */}
 
         </div>
     )

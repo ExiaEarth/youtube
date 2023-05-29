@@ -1,9 +1,9 @@
-
+import style from "./footer.module.scss"
 
 
 const Footer =()=>{
     return(
-        <div>
+        <div className={style.container}>
             <h2>Footer</h2>
         </div>
     )
